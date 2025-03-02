@@ -20,7 +20,7 @@ public class TextFilter {
     public static void run() throws IOException {
 
         // Путь к директорию где расположен файл с исходным результатом где уже из pdf преобразован к текст
-        String pathToDirectory = "/home/bekarys/IdeaProjects/WorkWord/src/main/java/org/example/week_3/grant_pdf/";
+        String pathToDirectory = "/Users/yeldos/java_projects/java_practice/src/main/java/org/example/week_3/grant_pdf";
         // Название файла
         String fileName = "green.txt";
 

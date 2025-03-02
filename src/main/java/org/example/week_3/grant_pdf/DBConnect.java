@@ -4,7 +4,6 @@ import org.apache.xpath.functions.Function;
 import org.example.week_3.L.DBConfig;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;

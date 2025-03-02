@@ -10,8 +10,8 @@ import java.io.IOException;
 public class Main {
     public static void main(String[] args) {
 
-        // Путь к pdf файлу где есть список резултата ЕНТ 2022 года
-        String filePath = "/home/bekarys/IdeaProjects/WorkWord/src/main/java/org/example/week_3/grant_pdf/grant_list_2022.pdf";
+        // Путь к pdf файлу, где есть список резултата ЕНТ 2022 года
+        String filePath = "/Users/yeldos/java_projects/java_practice/src/main/java/org/example/week_3/grant_pdf/grant_2023.pdf";
 
         // Создание объекта File
         File file = new File(filePath);
@@ -24,7 +24,7 @@ public class Main {
             String text = stripper.getText(pdf);
 
             // Запись текст в файл с именем green.txt
-            try (FileWriter f = new FileWriter(new File("/home/bekarys/IdeaProjects/WorkWord/src/main/java/org/example/week_3/grant_pdf/green.txt"))){
+            try (FileWriter f = new FileWriter(new File("/Users/yeldos/java_projects/java_practice/src/main/java/org/example/week_3/grant_pdf/green.txt"))){
                 // Запись
                 f.write(text);
             }
